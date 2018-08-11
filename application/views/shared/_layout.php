@@ -44,6 +44,9 @@
           <li class="nav-item">
             <a class="ml-4" href="https://linkedin.com/in/jodi-nichols/" target="_blank" title="Add me to your network"><i class="fab fa-linkedin fa-2x"></i></a>
           </li>
+          <li class="nav-item">
+            <a class="ml-4" href="https://github.com/nicholsjl/" target="_blank" title="Check out my repos"><i class="fab fa-github fa-2x"></i></a>
+          </li>
         </ul>
       </div>
     </nav>

@@ -322,7 +322,11 @@
       </div>
     </form>
 
-    <p class="text-center copyright">&copy; <?php echo date('Y'); ?> Jodi Nichols. <a href="https://linkedin.com/in/jodi-nichols/" target="_blank" title="Add me to your network"><i class="fab fa-linkedin"></i></a></p>
+    <p class="text-center copyright">
+      &copy; <?php echo date('Y'); ?> Jodi Nichols.&nbsp;
+      <a href="https://linkedin.com/in/jodi-nichols/" target="_blank" title="Add me to your network"><i class="fab fa-linkedin"></i></a>&nbsp;
+      <a href="https://github.com/nicholsjl/" target="_blank" title="Check out my repos"><i class="fab fa-github"></i></a>
+    </p>
 
   </div>
 </section>
