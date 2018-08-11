@@ -1,0 +1,30 @@
+body {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.icon-gradient {
+  background: -webkit-linear-gradient(color(grad_1), color(grad_2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-purple {
+  color: color(purple);
+}
+
+.required {
+  label:before {
+    content: '* ';
+    color: color(red);
+    font-weight: bold;
+  }
+}
+
+a {
+  color: color(purple);
+
+  &:hover, &:focus, &:active {
+    color: darken(color(purple), 10%);
+  }
+}

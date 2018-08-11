@@ -1,0 +1,18 @@
+.btn-rounded {
+  border-radius: 2rem;
+}
+
+.btn-outline-purple {
+  color: color(purple);
+  border-color: color(purple);
+
+  &:hover {
+    background-color: color(purple);
+    border-color: color(purple);
+    color: #ffffff;
+  }
+
+  &.focus, &:focus {
+    @include box-shadow(0, 0, 0, .2rem, rgba(72, 35, 221, .5));
+  }
+}
