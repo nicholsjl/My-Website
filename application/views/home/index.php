@@ -9,7 +9,7 @@
 <section id="about">
   <div class="container text-center">
     <h2>Hi, I'm Jodi.</h2>
-    <p class="section-description">I've been building things on the web for <?php echo date('Y') - 2010; ?> years now. My love for web design all started with changing the style of my MySpace page. I caught the coding bug&mdash;pun intended&mdash;and have been designing and developing websites and web apps since then.</p>
+    <p class="section-description">I've been building things on the web professionally for <?php echo date('Y') - 2014; ?> years now. I graduated Summa Cum Laude from East Tennessee State University in 2016 with a B.S. in Computer Science and a concentration in CS. That means my coursework was focused highly on application development and algorithms. While I'm interested in all aspects of programming, I decided that I preferred the web side of things, so I landed an internship as a web developer and designer. I love building every part of a web app from start to finish, so I've been a full-stack developer ever since.</p>
   </div>
 </section>
 
@@ -25,10 +25,14 @@
           <ul class="list-unstyled">
             <li>PHP</li>
             <li>CodeIgniter</li>
+            <li>Symfony 4</li>
+            <li>RESTful APIs</li>
             <li>MVC</li>
             <li>MySQL</li>
+            <li>Elasticsearch</li>
             <li>LAMP</li>
             <li>WordPress</li>
+            <li>Composer</li>
           </ul>
         </div>
       </div>
@@ -40,12 +44,16 @@
           <p class="card-text">Everything I build has to be responsive.</p>
           <p class="card-text text-purple">Design Tools:</p>
           <ul class="list-unstyled">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>SASS</li>
-            <li>JavaScript</li>
-            <li>Bootstrap</li>
+            <li>JavaScript (ES6)</li>
+            <li>React JS</li>
+            <li>Knockout JS</li>
             <li>Webpack</li>
+            <li>Redux</li>
+            <li>HTML5</li>
+            <li>CSS3 (Grid &amp; Flexbox)</li>
+            <li>SASS</li>
+            <li>BEM</li>
+            <li>Bootstrap</li>
           </ul>
         </div>
       </div>
@@ -57,15 +65,23 @@
           <p class="card-text">I balance my time and tasks on every project.</p>
           <p class="card-text text-purple">Methodologies:</p>
           <ul class="list-unstyled">
-            <li>Project Lead</li>
             <li>Agile</li>
             <li>Scrum</li>
+            <li>User Stories</li>
+            <li>Git Version Control</li>
+            <li>GitHub/BitBucket</li>
             <li>Continuous Integration</li>
-            <li>Github/BitBucket</li>
+            <li>Unit Testing</li>
+            <li>Code Reviews</li>
             <li>Usability Testing</li>
           </ul>
         </div>
       </div>
+    </div>
+
+    <div class="mt-5">
+      <p class="text-purple">Other Technologies:</p>
+      <p>C#, Java, C++, x86 Assembly (MASM), Visual Studio, VS Code, Atom, Eclipse, Adobe Creative Suite (PhotoShop, Illustrator, etc.)</p>
     </div>
   </div>
 </section>
@@ -85,7 +101,7 @@
           <div class="img-caption">
             <div>
               <h5>FoodieBuild</h5>
-              <p>My startup&mdash;a subscription-based website builder for restaurants.</p>
+              <p>My startup&mdash;a SaaS website builder for restaurants.</p>
             </div>
           </div>
         </div>
