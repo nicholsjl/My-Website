@@ -41,14 +41,14 @@
         <i class="fas fa-code fa-3x icon-gradient"></i>
         <div class="card-body">
           <h4 class="card-title">Front End</h4>
-          <p class="card-text">Everything I build has to be responsive.</p>
+          <p class="card-text">Everything I build is responsive and user-friendly.</p>
           <p class="card-text text-purple">Design Tools:</p>
           <ul class="list-unstyled">
             <li>JavaScript (ES6)</li>
             <li>React JS</li>
+            <li>Redux</li>
             <li>Knockout JS</li>
             <li>Webpack</li>
-            <li>Redux</li>
             <li>HTML5</li>
             <li>CSS3 (Grid &amp; Flexbox)</li>
             <li>SASS</li>
@@ -88,7 +88,7 @@
 
 <section id="work">
   <div class="container text-center">
-    <h2>My Work</h2>
+    <h2>Professional Work</h2>
     <p class="section-description">Click a thumbnail to view the site in action or an enlarged image.</p>
 
     <div class="row">
@@ -304,6 +304,14 @@
       </div>
 
     </div>
+  </div>
+</section>
+
+<section id="side-work">
+  <div class="container text-center">
+    <h2>Side Work</h2>
+    <p class="section-description">I do a lot of coding in my free time outside of work, and I'm always trying to learn new technologies to better my skills. The best way for me to learn something is to do it in action. As a result, I tend to build sample web apps to demonstrate these skills. Visit my <a href="https://github.com/nicholsjl" target="_blank">GitHub page</a> to see my side work.</p>
+    <p class="section-description">My most recent project is a meal planner web app that I built with React JS, Redux, React Router, and Bootstrap 4 that helps me think of dinner ideas for a two week period. <a href="https://jodinichols.work/dev/meal-planner" target="_blank">Try it out here!</a></p>
   </div>
 </section>
 

@@ -150,6 +150,9 @@ section {
     .copyright a:hover, .copyright a:focus, .copyright a:active {
       color: #ffffff; }
 
+#side-work {
+  background-color: #d2e1ff; }
+
 .btn-rounded {
   border-radius: 2rem; }
 
