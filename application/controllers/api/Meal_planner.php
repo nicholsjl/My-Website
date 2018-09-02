@@ -9,6 +9,54 @@ class Meal_planner extends CI_Controller {
         $this->load->model('meal_planner_model', 'meals', true);
     }
 
+    public function reset_database() {
+        if (php_sapi_name() == 'cli') {
+            if (file_exists(DB_FILE_MEAL_PLANNER)) {
+                $this->load->dbforge();
+
+                if ($this->dbforge->drop_database(DB_NAME)) {
+                    echo 'Database deleted'.PHP_EOL;
+                }
+
+                if ($this->dbforge->create_database(DB_NAME)) {
+                    echo 'Database created'.PHP_EOL;
+
+                    // Connect to database
+                    $this->db = $this->load->database('default', true);
+
+                    // Rebuild tables using SQL backup
+                    $tmp = '';
+                    $lines = file(DB_FILE_MEAL_PLANNER);
+
+                    foreach ($lines as $line) {
+                        // Skip it if it's a comment
+                        if (substr($line, 0, 2) == '--' || $line == '') {
+                            continue;
+                        }
+
+                        // Add this line to the current segment
+                        $tmp .= $line;
+
+                        // If it has a semicolon at the end, it's the end of the query
+                        if (substr(trim($line), -1, 1) == ';') {
+                            // Perform the query
+                            $this->db->simple_query($tmp);
+
+                            // Reset temp variable to empty
+                            $tmp = '';
+                        }
+                    }
+                }
+
+                // Close database connection
+                $this->db->close();
+            } else {
+                echo 'SQL file does not exist'.PHP_EOL;
+                die();
+            }
+        }
+	}
+
     public function fetch_meals() {
         $this->requireMethod('get');
         $results = $this->meals->select_all();
@@ -52,7 +100,7 @@ class Meal_planner extends CI_Controller {
 
     private function json($response) {
         $this->output
-            ->set_header('Access-Control-Allow-Origin: *')
+            ->set_header('Access-Control-Allow-Origin: '.base_url())
             ->set_header('Access-Control-Request-Method: GET, POST, PUT, DELETE, OPTIONS')
             ->set_status_header(200)
             ->set_content_type('application/json', 'utf-8')
