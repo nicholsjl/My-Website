@@ -26,6 +26,8 @@
             <li>PHP</li>
             <li>CodeIgniter</li>
             <li>Symfony 4</li>
+            <li>Elixir</li>
+            <li>Phoenix</li>
             <li>RESTful APIs</li>
             <li>MVC</li>
             <li>MySQL</li>
@@ -45,8 +47,10 @@
           <p class="card-text text-purple">Design Tools:</p>
           <ul class="list-unstyled">
             <li>JavaScript (ES6)</li>
+            <li>TypeScript</li>
             <li>React JS</li>
             <li>Redux</li>
+            <li>React Router</li>
             <li>Knockout JS</li>
             <li>Webpack</li>
             <li>HTML5</li>
@@ -81,7 +85,7 @@
 
     <div class="mt-5">
       <p class="text-purple">Other Technologies:</p>
-      <p>C#, Java, C++, x86 Assembly (MASM), Visual Studio, VS Code, Atom, Eclipse, Adobe Creative Suite (PhotoShop, Illustrator, etc.)</p>
+      <p>C#, Java, C++, x86 Assembly (MASM), Visual Studio, Eclipse, Adobe Creative Suite (PhotoShop, Illustrator, etc.), SEO, Google AdWords</p>
     </div>
   </div>
 </section>
