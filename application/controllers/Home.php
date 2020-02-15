@@ -29,7 +29,7 @@ class Home extends CI_Controller {
 				$errors = $this->validate_form();
 
 				if (empty($errors)) {
-					$json = array('type' => 'success', 'message' => 'Message received! Thanks for reaching out. I&rsquo;ll be in touch very soon.');
+					$json = array('type' => 'success', 'message' => "Message received! Thanks for reaching out. I'll be in touch very soon.");
 
 					$message = array(
 						'subject' => $this->input->post('subject'),

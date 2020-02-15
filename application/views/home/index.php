@@ -1,6 +1,6 @@
 <section id="intro">
   <div class="container text-center">
-    <h1>Full-Stack Developer &amp; Designer</h1>
+    <h1>Senior Full-Stack Developer</h1>
     <p>From the back end, to the front end &mdash; I build it all.</p>
     <img src="<?php echo base_url(); ?>assets/img/jodi-nichols.jpg" alt="Jodi Nichols" class="rounded-circle" />
   </div>
@@ -8,7 +8,7 @@
 
 <section id="about">
   <div class="container text-center">
-    <h2>Hi, I'm Jodi.</h2>
+    <h2>I'm Jodi.</h2>
     <p class="section-description">I've been building things on the web professionally for <?php echo date('Y') - 2014; ?> years now. I graduated Summa Cum Laude from East Tennessee State University in 2016 with a B.S. in Computer Science and a concentration in CS. That means my coursework was focused highly on application development and algorithms. While I'm interested in all aspects of programming, I decided that I preferred the web side of things, so I landed an internship as a web developer and designer. I love building every part of a web app from start to finish, so I've been a full-stack developer ever since.</p>
   </div>
 </section>
@@ -25,12 +25,12 @@
           <ul class="list-unstyled">
             <li>PHP</li>
             <li>CodeIgniter</li>
-            <li>Symfony 4</li>
-            <li>Elixir</li>
-            <li>Phoenix</li>
+            <li>Node JS</li>
+            <li>Express</li>
             <li>RESTful APIs</li>
             <li>MVC</li>
             <li>MySQL</li>
+            <li>NoSQL</li>
             <li>Elasticsearch</li>
             <li>LAMP</li>
             <li>WordPress</li>
@@ -46,7 +46,7 @@
           <p class="card-text">Everything I build is responsive and user-friendly.</p>
           <p class="card-text text-purple">Design Tools:</p>
           <ul class="list-unstyled">
-            <li>JavaScript (ES6)</li>
+            <li>JavaScript (ES6+)</li>
             <li>TypeScript</li>
             <li>React JS</li>
             <li>Redux</li>
@@ -71,10 +71,8 @@
           <ul class="list-unstyled">
             <li>Agile</li>
             <li>Scrum</li>
-            <li>User Stories</li>
+            <li>Docker</li>
             <li>Git Version Control</li>
-            <li>GitHub/BitBucket</li>
-            <li>Continuous Integration</li>
             <li>Unit Testing</li>
             <li>Code Reviews</li>
             <li>Usability Testing</li>
@@ -105,7 +103,7 @@
           <div class="img-caption">
             <div>
               <h5>FoodieBuild</h5>
-              <p>My startup&mdash;a SaaS website builder for restaurants.</p>
+              <p>A SaaS website content management system for restaurants.</p>
             </div>
           </div>
         </div>
@@ -322,7 +320,7 @@
 <section id="contact">
   <div class="container">
     <h2 class="text-center">Contact Me</h2>
-    <p class="section-description text-center">Want to hire me or just get in touch? Send me a message here.</p>
+    <p class="section-description text-center">Want to get in touch? Send me a message here.</p>
 
     <form id="contactForm" action="" method="post">
       <div class="alert alert-success shadow-lg" style="display: none;"></div>
